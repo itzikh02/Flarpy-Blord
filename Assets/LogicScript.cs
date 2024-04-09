@@ -28,6 +28,8 @@ public class LogicScript : MonoBehaviour
         eventValues.Add(AFInAppEvents.REVENUE, "0.99");
         eventValues.Add("af_quantity", "1");
         AppsFlyer.sendEvent(AFInAppEvents.PURCHASE, eventValues);
+
+
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     } 
     public void gameOver()
